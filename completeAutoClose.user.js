@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         completeAutoClose
 // @namespace    https://github.com/yata-u/AnyScripts
-// @updateURL    https://raw.githubusercontent.com/yata-u/AnyScripts/main/completeAutoClose.js
-// @downloadURL  https://raw.githubusercontent.com/yata-u/AnyScripts/main/completeAutoClose.js
+// @updateURL    https://raw.githubusercontent.com/yata-u/AnyScripts/main/completeAutoClose.user.js
+// @downloadURL  https://raw.githubusercontent.com/yata-u/AnyScripts/main/completeAutoClose.user.js
 // @version      1.0
 // @description  修了済みのStepを閉じた状態で開始します。
 // @author       yata-u
@@ -22,7 +22,7 @@
                 let inputId = input.getAttribute('id');
                 input.click();
                 while( document.getElementById(inputId) != null ){
-                      await wait(5);
+                    await wait(5);
                 };
             };
         };
