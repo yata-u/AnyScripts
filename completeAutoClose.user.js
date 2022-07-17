@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         completeAutoClose
 // @namespace    https://github.com/yata-u/AnyScripts
-// @updateURL    https://raw.githubusercontent.com/yata-u/AnyScripts/main/completeAutoClose.user.js
-// @downloadURL  https://raw.githubusercontent.com/yata-u/AnyScripts/main/completeAutoClose.user.js
-// @version      1.0
+// @updateURL    https://github.com/yata-u/AnyScripts/raw/main/completeAutoClose.user.js
+// @downloadURL  https://github.com/yata-u/AnyScripts/raw/main/completeAutoClose.user.js
+// @version      1.01
 // @description  修了済みのStepを閉じた状態で開始します。
 // @author       yata-u
 // @match        https://dhw.study.jp/home/course/subject.aspx?id=*
